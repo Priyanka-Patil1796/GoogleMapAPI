@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">GoogleMapAPI</string>
+    <string name="list_doctor"> Click here to know near by Doctor</string>
+    <string name="list_restaurant"> Click here to know near by Restaurant</string>
+    <string name="list_atm"> Click here to know near by ATM</string>
+    <string name="list_cafe"> Click here to know near by Cafe</string>
+    <string name="id_hospital">   ID is :</string>
+    <string name="name_hospital"> Name is :</string>
+    <string name="area_hospital"> Area is :</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

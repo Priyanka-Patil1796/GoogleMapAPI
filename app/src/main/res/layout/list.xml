@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+    <TextView
+        android:layout_toRightOf="@id/iv_icon"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="20dp"
+        android:id="@+id/hos_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/id_hospital"/>
+    <TextView
+        android:id="@+id/id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_toRightOf="@+id/hos_id"/>
+    <TextView
+        android:layout_toRightOf="@id/iv_icon"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="55dp"
+        android:id="@+id/hosname_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/name_hospital"/>
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="55dp"
+        android:layout_toRightOf="@+id/hosname_id"/>
+
+    <TextView
+        android:layout_toRightOf="@id/iv_icon"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="75dp"
+        android:id="@+id/hosarea_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/area_hospital"/>
+    <TextView
+        android:id="@+id/vicinity"
+        android:layout_marginTop="75dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/hosarea_id"/>
+
+    <TextView
+        android:layout_toRightOf="@id/iv_icon"
+        android:layout_marginLeft="5dp"
+        android:id="@+id/opening_hours"
+        android:layout_marginTop="4dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/iv_icon"
+        android:layout_marginTop="20dp"/>
+
+    <!--<TextView-->
+        <!--android:id="@+id/website"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--app:layout_constraintRight_toRightOf="parent"-->
+        <!--app:layout_constraintLeft_toRightOf="@+id/website_l"-->
+        <!--app:layout_constraintTop_toBottomOf="@+id/phone" />-->
+
+    <!--<TextView-->
+        <!--android:id="@+id/website_l"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="Website: "-->
+        <!--android:textAppearance="@style/TextAppearance.AppCompat.Medium"-->
+        <!--app:layout_constraintLeft_toLeftOf="parent"-->
+        <!--app:layout_constraintRight_toLeftOf="@+id/website"-->
+        <!--app:layout_constraintTop_toBottomOf="@+id/phone" />-->
+
+    <!--<Button-->
+        <!--android:id="@+id/view_map_b"-->
+        <!--style="@style/Widget.AppCompat.Button.Colored"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:minWidth="0dp"-->
+        <!--android:minHeight="0dp"-->
+        <!--android:text="View On Map"-->
+        <!--app:layout_constraintLeft_toLeftOf="parent"-->
+        <!--app:layout_constraintRight_toRightOf="parent"-->
+        <!--app:layout_constraintTop_toBottomOf="@+id/rating" />-->
+
+    <!--<RatingBar-->
+        <!--android:id="@+id/rating"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:numStars="5"-->
+        <!--android:isIndicator="true"-->
+        <!--app:layout_constraintLeft_toLeftOf="parent"-->
+        <!--app:layout_constraintRight_toRightOf="parent"-->
+        <!--app:layout_constraintTop_toBottomOf="@+id/website"/>-->
+
+</RelativeLayout>
